@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+/* HEADER */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto 1%;
+  padding: 1%;
+}
+.logo {
+  width: 130px;
+}
+.ourproject {
+  margin: auto 1%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+/* SECTION */
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.playstore {
+  width: 10%;
+}
+.img1 {
+  width: 12%;
+  margin: 2%;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img2 {
+  margin: 2%;
+  width: 40%;
+}
+li {
+  list-style: none;
+}
+li::before {
+  content: "-";
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.7rem;
+  }
+  /* HEADER */
+  .header {
+    padding: 3%;
+  }
+  .logo {
+    width: 75px;
+  }
+  .ourproject {
+    margin: auto 4%;
+    font-size: 1.5rem;
+  }
+  /* SECTION */
+  .title {
+    font-size: 1.2rem;
+  }
+  .playstore {
+    width: 10%;
+  }
+  .img1 {
+    width: 25%;
+  }
+  .img2 {
+    width: 75%;
+  }
+  section {
+    margin: 20% auto;
+  }
+}
